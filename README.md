@@ -1,4 +1,4 @@
-"# Math-game".<br>
+# Math-game.<br>
 ### 🚀Features
 
 - 🧮 Supports +, -, \*, /, or random mixed questions
