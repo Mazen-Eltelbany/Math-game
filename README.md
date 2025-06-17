@@ -11,7 +11,7 @@
 - Compiler: g++
 - Terminal: Windows Command Line (uses system("color"))
 
-📦 How to Run
+📦 How to Run<br> 
 1- Clone the repo:
 ```bash
 git clone https://github.com/Mazen-Eltelbany/Math-game.git
