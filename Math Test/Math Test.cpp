@@ -4,6 +4,16 @@
 #include<cmath>
 #include<ctime>
 using namespace std;
+#include <cstdlib>
+
+void clearScreen() {
+#ifdef _WIN32
+	system("cls");
+#else
+	system("clear");
+#endif
+}
+
 short readnumofquestion(string massage) {
 	int n;
 	cout << massage << endl;
@@ -199,7 +209,7 @@ void startgame() {
 	char cont = 'Y';
 
 	do {
-		system("cls");
+		clearScreen();
 		system("color 0F");
 		int n = readnumofquestion("enter the number of question you want");
 		short op = readopquestion("enter operation type [1]Add,[2]Sub,[3]Mult,[4]Div,[5]Mix");

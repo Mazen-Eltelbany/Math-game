@@ -26,7 +26,7 @@ g++ main.cpp -o MathGame.exe
 ```
 4- Run:
 ```bash
-./MathGame.exe
+./MathGame.cpp
 ```
 **Author**
 - 👤 Mazen Eltelbany
