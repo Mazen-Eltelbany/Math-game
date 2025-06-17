@@ -21,12 +21,10 @@ git clone https://github.com/Mazen-Eltelbany/Math-game.git
 ```
 
 2-**Navigate to the project:**  
-{
-1-```bash
-cd Math-game
-````
-2-```bash
-cd Math-Test
+{  
+```bash  
+1-cd Math-game  
+2-cd Math-Test  
 ````
 }
 3- **Compile:**
