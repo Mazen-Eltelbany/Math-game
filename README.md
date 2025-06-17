@@ -1,17 +1,17 @@
-"# Math-game"
-🚀 Features
+"# Math-game". 
+🚀 **Features**
 - 🧮 Supports +, -, *, /, or random mixed questions
 - 🎯 Adjustable difficulty levels: Easy, Medium, Hard, Mix
 - 🎨 Color-coded terminal feedback (Green = Correct, Red = Wrong)
 - 🔄 Option to replay after each round
 - 🧠 Tracks number of correct and incorrect answers
 
-🛠️ Technologies
+🛠️ **Technologies**
 - Language: C++
 - Compiler: g++
 - Terminal: Windows Command Line (uses system("color"))
 
-📦 How to Run<br> 
+📦 **How to Run**<br> 
 1- Clone the repo:
 ```bash
 git clone https://github.com/Mazen-Eltelbany/Math-game.git
@@ -28,5 +28,5 @@ g++ main.cpp -o MathGame.exe
 ```bash
 ./MathGame.exe
 ```
-Author
+**Author**
 - 👤 Mazen Eltelbany
