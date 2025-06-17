@@ -26,7 +26,7 @@ short readopquestion(string massage) {
 	{
 		cout << massage << endl;
 		cin >> n;
-	} while (n>5||n<1);
+	} while (n > 5 || n < 1);
 	return n;
 }
 short readlevelquestion(string massage) {
