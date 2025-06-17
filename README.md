@@ -1,10 +1,10 @@
 "# Math-game"
 🚀 Features
--🧮 Supports +, -, *, /, or random mixed questions
--🎯 Adjustable difficulty levels: Easy, Medium, Hard, Mix
--🎨 Color-coded terminal feedback (Green = Correct, Red = Wrong)
--🔄 Option to replay after each round
--🧠 Tracks number of correct and incorrect answers
+- 🧮 Supports +, -, *, /, or random mixed questions
+- 🎯 Adjustable difficulty levels: Easy, Medium, Hard, Mix
+- 🎨 Color-coded terminal feedback (Green = Correct, Red = Wrong)
+- 🔄 Option to replay after each round
+- 🧠 Tracks number of correct and incorrect answers
 
 🛠️ Technologies
 -Language: C++
