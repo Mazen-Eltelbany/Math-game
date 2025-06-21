@@ -15,7 +15,7 @@ void clearScreen() {
 }
 
 short readnumofquestion(string massage) {
-	int n;
+	int n=0;
 	cout << massage << endl;
 	cin >> n;
 	return n;
@@ -94,10 +94,10 @@ ques questions(short level, short op) {
 		char operations[] = { '+', '-', '*', '/' };
 		x.operation = operations[(int)random(0, 3)];
 	}
-	return { x.n1,x.n2,x.operation };
+	return x ;
 }
-bool check(int answer, ques& x) {
-	int correctansw;
+bool check(int answer, ques x) {
+	int correctansw=0;
 	switch (x.operation)
 	{
 	case '+':
@@ -121,7 +121,7 @@ void shape(ques x) {
 	cout << x.operation << endl;
 	cout << x.n2 << endl;
 }
-void systemcolor(int answer, ques& x, answe& y) {
+void systemcolor(int answer, ques x, answe& y) {
 
 	if (check(answer, x)) {
 		system("color 2F");
@@ -207,7 +207,6 @@ void finalgameresult(answe y, short n, short level, short op) {
 }
 void startgame() {
 	char cont = 'Y';
-
 	do {
 		clearScreen();
 		system("color 0F");
@@ -223,6 +222,7 @@ void startgame() {
 }
 int main() {
 	srand((unsigned)time(NULL));
+	int x = 0;
 	startgame();
 	return 0;
 }
